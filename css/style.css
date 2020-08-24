@@ -1,0 +1,47 @@
+body{
+    font-size: medium;
+    color: bisque;
+    background-color: coral;
+    font-family: 'Kaushan Script', 'cursive' , 'arial';
+}
+
+#headNav {
+    background-color: orangered;
+    color: orange;
+}
+
+.navbar-brand {
+    color: orangered;
+    font-size: large;
+}
+
+.nav-list a p {
+    background-color: cornflowerblue;
+    font-family: 'Kaushan Script';
+}
+#home{
+    margin-bottom: 30px;
+}
+.row{
+    position: relative;
+    float: left;
+}
+
+.row > div > article {
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    padding: 12px;
+    color: black;
+    text-align: justify;
+}
+@media (max-width: 767px) {
+	.row > div > article {
+		width: 80%;
+		margin: 20px auto 0;
+	}
+}
+
+@font-face {
+    font-family: Kaushan Script;
+    src: url(../css/font/KaushanScript-Regular.ttf);
+}
